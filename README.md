@@ -19,10 +19,6 @@ This page displays posts of only those users whom you are following.
 ### Single_post_page
 This page displays the complete details about the post (like about, liked by, comments etc.)
 
-### Add_Comment
-The application is little strict about comments 😁, you need to follow the post's author in order to add comments (you can remove this feature too from the code).
-
-
 ### Explore_Page
 At this page you can see posts, made by all the signed up users in the application (global posts in short).
 
@@ -30,11 +26,9 @@ At this page you can see posts, made by all the signed up users in the applicati
 ### User_Inbox
 Just like istagram here you can see your messages (your inbox basically), you can also send a new message to any user present in the application.
 
-
 ### Your_Profile_Page
 Here you can manage your profile information like your profile picture (which you can update), your posts, followers and the people you are following.
 Also, just like instagram can also visit other peoples profile as well.
-
 
 ### Login_Page
 <p align="center">

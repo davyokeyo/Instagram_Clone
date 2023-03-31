@@ -9,22 +9,18 @@ A FullStack Instagram App built with Flask and React.
 - JWT (token authentication)
 
 ## About_this_App
-- An Instagram clone build with Flask, React, Redux.  
-- Allows users to like, share, comment, posts or create their own. 
+- An Instagram clone build with Flask,bootstrap v5, Html & Css  
+- Allows users to share, comment, posts or create their own. 
 - follow or get connected with other users and more functionalities within the app to discover.
 
 ### Home_page
-This page displays posts of only those users whom you are following.
+This page displays posts of all users in the database.
 
 ### Single_post_page
 This page displays the complete details about the post (like about, liked by, comments etc.)
 
-### Explore_Page
+### home-feed
 At this page you can see posts, made by all the signed up users in the application (global posts in short).
-
-
-### User_Inbox
-Just like istagram here you can see your messages (your inbox basically), you can also send a new message to any user present in the application.
 
 ### Your_Profile_Page
 Here you can manage your profile information like your profile picture (which you can update), your posts, followers and the people you are following.
@@ -71,19 +67,7 @@ The program is a demonstration of my acquired skills for the period I have been 
 
 `flask shell`
 
-- running following commands in shell (to avoid roles related issues, by default application will provide you user role permissions), so with below command we are setting up 3 types of roles: User, Moderator and Administrator
-
-`Role.insert_roles()`
-
-- confirm roles
-
-`Role.query.all()`
-
-- exit shell
-
-`exit()`
-
-- As your application is entirely new so there is no data in it so go ahead and signup and login to create your new account (i highly recommend to import the json file present in "project_files" directory to ease your work)
+- As your application is entirely new so there is no data in it so go ahead and signup and login to create your new account 
 
 * Note: if the application is not recognizing localhost then use its address instead like this => `http://127.0.0.1:5000/login`, make sure to not include extra slashes "/" at the end of your endpoint or api to avoid not found issues, please use the urls as mentioned in views.
 
